@@ -1,0 +1,37 @@
+[
+  {
+    "tweet_id": "EXAMPLE-1",
+    "customer_text": "my downloads keep vanishing every time I close the app, so annoying",
+    "true_intent": "technical_playback",
+    "true_action": "AUTO",
+    "human_escalation_reason": "n/a - standard cache/reinstall fix, no account data needed",
+    "ideal_response_bulletpoints": [
+      "acknowledge issue",
+      "suggest reinstall or clear cache",
+      "point to support.spotify.com if unresolved"
+    ]
+  },
+  {
+    "tweet_id": "EXAMPLE-2",
+    "customer_text": "you charged me twice this month, fix this now",
+    "true_intent": "billing_payment",
+    "true_action": "ESCALATE",
+    "human_escalation_reason": "payment/account lookup required, cannot verify or refund without account access",
+    "ideal_response_bulletpoints": [
+      "apologize",
+      "ask to DM account details",
+      "no promise of refund amount without lookup"
+    ]
+  },
+  {
+    "tweet_id": "EXAMPLE-3",
+    "customer_text": "love the new wrapped feature, so fun this year!",
+    "true_intent": "general_query_feedback",
+    "true_action": "AUTO",
+    "human_escalation_reason": "n/a - positive feedback, no action needed",
+    "ideal_response_bulletpoints": [
+      "thank the customer",
+      "no fabricated feature claims"
+    ]
+  }
+]
