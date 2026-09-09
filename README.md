@@ -85,6 +85,18 @@ cp .env.example .env   # fill in OPENAI_API_KEY
    pytest tests/
    ```
 
+## Report
+
+See `REPORT.md` — problem framing, decision log, and "next week" are
+done. Results table, failure analysis, and misleading-number section
+have the structure locked but need real numbers from a real run
+(TODO markers inside).
+
+## Submission
+
+Per the assignment: submit via the Notion form (repo link + report),
+not email. Grant repo access if kept private.
+
 ## Current status (honest)
 
 - ingest.py: **written, unit-tested**. Caught and fixed a real bug during
